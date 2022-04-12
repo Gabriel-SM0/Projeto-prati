@@ -1,12 +1,12 @@
-# Projeto-prati
-
+# Projeto +prati 
+CRUD (Create, Read, Update, Delete)
 
 Implementações:
 
 Classe Pessoa:heavy_check_mark:	<br />
 Classe Aluno:heavy_check_mark:	<br />
 
-Menu :heavy_check_mark:	<br />
+Menu com opções de ação :heavy_check_mark:	<br />
 Criar usuário :heavy_check_mark:	<br />
 Mostrar todo os usuários :construction_worker_man:	<br />
 Atualizar Usuário:construction_worker_man:	<br />
