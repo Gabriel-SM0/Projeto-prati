@@ -62,7 +62,7 @@ public class Main {
 			case 2:
 				System.out.println("2");
 				for(Pessoa elemento: lista) {
-					elemento.exibe();
+					System.out.println(elemento.exibe());
 				}
 				
 				
