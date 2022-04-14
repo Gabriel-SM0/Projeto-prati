@@ -60,9 +60,9 @@ public class Main {
 				continue;
 
 			case 2:
-				System.out.println("2");
+				System.out.println("Nomes de todos os usuários: ");
 				for(Pessoa elemento: lista) {
-					System.out.println(elemento.exibe());
+					System.out.println(elemento.toString());
 				}
 				
 				

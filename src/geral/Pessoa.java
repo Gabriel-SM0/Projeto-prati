@@ -79,9 +79,16 @@ public class Pessoa {
 	
 
 	public String exibe() {
-		return "Pessoa [nome=" + nome + ", telefone=" + telefone + ", DataNascimento=" + DataNascimento
-				+ ", DataDeCadastroDaPessoa=" + DataDeCadastroDaPessoa + ", DataDaUltimaAlteracao="
-				+ DataDaUltimaAlteracao + "]";
+		return "Nome=" + nome + "\n"
+				+ "Telefone=" + telefone + "\n" 
+				+ "DataNascimento=" + DataNascimento + "\n"
+				+ "DataDeCadastroDaPessoa=" + DataDeCadastroDaPessoa + "\n"
+				+ ", DataDaUltimaAlteracao="+ DataDaUltimaAlteracao + "]";
+	}
+
+	@Override
+	public String toString() {
+		return "Nome=" + nome;
 	}
 	
 }
