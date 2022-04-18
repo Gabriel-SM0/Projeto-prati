@@ -88,7 +88,7 @@ public class Pessoa {
 
 	@Override
 	public String toString() {
-		return "Nome=" + nome;
+		return this.nome;
 	}
 	
 }
